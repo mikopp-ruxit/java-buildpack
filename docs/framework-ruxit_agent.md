@@ -1,3 +1,6 @@
+
+[Ruxit](www.ruxit.com) is  full stack monitoring solution. It allows you insight into all application requests from the users click in the browser down to the database statement.
+
 # Ruxit Agent Framework
 The Ruxit Agent Framework causes an application to be automatically configured to work with a bound [Ruxit Service][] instance (Free trials available).
 
@@ -16,7 +19,7 @@ The Ruxit Agent Framework causes an application to be automatically configured t
 </table>
 Tags are printed to standard output by the buildpack detect script
 
-## User-Provided Service (Optional)
+## User-Provided Service 
 Users may optionally provide their own Ruxit service. A user-provided Ruxit service must have a name or tag with `ruxit` in it so that the Ruxit Agent Framework will automatically configure the application to work with the service.
 
 The credential payload of the service may contain the following entries:
@@ -45,3 +48,6 @@ The framework can be configured by modifying the [`config/ruxit_agent.yml`][] fi
 [repositories]: extending-repositories.md
 [this listing]: http://download.ruxit.com/agent/paas/cloudfoundry/java/index.yml
 [version syntax]: extending-repositories.md#version-syntax-and-ordering
+
+## Support
+This build pack is currently Beta. If you have any questions or problems regarding the build pack itself please don't hestitate to contact Ruxit on https://answers.ruxit.com/, be sure to use "cloudfoundry" as a topic.
